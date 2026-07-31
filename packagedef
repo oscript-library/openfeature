@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////
+// OpenFeature (CNCF): вендор-независимая оценка фича-флагов.
+////////////////////////////////////////////////////////////
+
+Описание.Имя("openfeature")
+	.Версия("0.1.0")
+	.Автор("Ivan Karlo")
+	.АдресАвтора("i.karlo@outlook.com")
+	.АдресРепозитория("https://github.com/yellow-hammer/openfeature")
+	.Описание("Стандартный API фича-флагов: клиент, провайдеры, контекст оценки и хуки. Смена системы флагов не затрагивает прикладной код.")
+	.ВерсияСреды("2.0.0")
+
+	.ВключитьФайл("docs")
+	.ВключитьФайл("src")
+	.ВключитьФайл("tasks")
+	.ВключитьФайл("tests")
+	.ВключитьФайл("CHANGELOG.md")
+	.ВключитьФайл("CONTRIBUTING.md")
+	.ВключитьФайл("LICENSE")
+	.ВключитьФайл("packagedef")
+	.ВключитьФайл("README.md")
+
+	.ЗависитОт("reflector")
+
+	.РазработкаЗависитОт("1commands")
+	.РазработкаЗависитОт("asserts")
+	.РазработкаЗависитОт("coverage")
+	.РазработкаЗависитОт("fs")
+	.РазработкаЗависитОт("oneunit")
+
+	.ОпределяетМодуль("OpenFeature", "src/Модули/OpenFeature.os")
+	.ОпределяетМодуль("OpenFeatureReason", "src/Модули/OpenFeatureReason.os")
+	.ОпределяетМодуль("OpenFeatureErrorCode", "src/Модули/OpenFeatureErrorCode.os")
+	.ОпределяетКласс("OpenFeatureApi", "src/Классы/OpenFeatureApi.os")
+	.ОпределяетКласс("FeatureClient", "src/Классы/FeatureClient.os")
+	.ОпределяетКласс("EvaluationContext", "src/Классы/EvaluationContext.os")
+	.ОпределяетКласс("EvaluationDetails", "src/Классы/EvaluationDetails.os")
+	.ОпределяетКласс("ResolutionDetails", "src/Классы/ResolutionDetails.os")
+	.ОпределяетКласс("NoopProvider", "src/Классы/NoopProvider.os")
+	.ОпределяетКласс("InMemoryProvider", "src/Классы/InMemoryProvider.os")
+	.ОпределяетКласс("JsonFileProvider", "src/Классы/JsonFileProvider.os")
+;
