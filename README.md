@@ -1,5 +1,11 @@
 # openfeature
 
+<!-- Заглушка: подставить идентификатор репозитория в OpenYellow
+[![OpenYellow](https://openyellow.openintegrations.dev/data/badges/ID.svg)](https://openyellow.org/grid?filter=top&repo=ID)
+-->
+[![telegram chat](https://img.shields.io/badge/telegram-chat-green.svg)](https://t.me/wonder_yellow)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/yellow-hammer/openfeature)
+
 Реализация [OpenFeature](https://openfeature.dev/specification/) - открытого стандарта CNCF для оценки фича-флагов - на OneScript.
 
 Прикладной код работает с флагами через единый API и ничего не знает о том, где они хранятся. Систему управления флагами можно заменить, поменяв одну строку регистрации провайдера: локальный JSON на старте, свой сервер в проде, набор в памяти в тестах.
