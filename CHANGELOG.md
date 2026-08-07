@@ -3,10 +3,10 @@
 Формат основан на [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
 версионирование - [semver](https://semver.org/lang/ru/).
 
-## Не выпущено
-
-## 0.1.0 - 2026-08-04
+## 0.1.0 - 2026-08-07
 
 ### Добавлено
 
-- Первая версия: Вендор-независимая оценка фича-флагов по спецификации OpenFeature
+- Первая версия: вендор-независимая оценка фича-флагов по спецификации OpenFeature
+- Модуль `OpenFeature` и клиент `FeatureClient`: оценка, контекст, хуки
+- Провайдеры `NoopProvider`, `InMemoryProvider`, `JsonFileProvider`
